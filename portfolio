@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+    </style>
+</head>
+<body>
+    <h1>Oi, eu sou a Rafa!</h1>
+    <p>Sou Analista de Suporte e apaixonada por tecnologia. Estou em transição para desenvolvimento e adoro resolver problemas técnicos.</p>
+    <p>Me encontre no <a href="https://www.linkedin.com/in/seu-perfil">LinkedIn</a>!</p>
+</body>
+</html>
