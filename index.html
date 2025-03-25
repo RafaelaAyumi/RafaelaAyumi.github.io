@@ -1,16 +1,193 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    </style>
+  <meta charset="UTF-8">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/1137500b49.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Oi, eu sou a Rafa!</h1>
-    <p>Sou Analista de Suporte e apaixonada por tecnologia. Estou em transição para desenvolvimento e adoro resolver problemas técnicos.</p>
-    <p>Me encontre no <a href="https://www.linkedin.com/in/seu-perfil">LinkedIn</a>!</p>
+    <div class="menu-bar">
+        <a href="#curriculo"><i class="fa-regular fa-file"></i> Curriculum Vitae</a>
+        <a href="#video"><i class="fa-regular fa-file-video"></i> Vídeo de Apresentação</a>
+        <a href="#github"><i class="fa-brands fa-square-github"></i> GitHub</a>
+        <a href="#contato"><i class="fa-regular fa-envelope"></i> Contato</a>
+    </div>
+
+
+    <section id="sobre-mim">
+        <div class="container-sobre">
+          <div class="imagem-sobre">
+            <img src="perfil.jpg" alt="Foto de Rafaela Ayumi">
+          </div>
+          <div class="texto-sobre">
+            <h1><i class="fa-solid fa-heart"></i> Prazer, sou a Rafa!</h1>
+      
+            <p><strong>Quem sou eu</strong><br>
+            Olá! Me chamo Rafaela Ayumi, uma entusiasta da tecnologia e apaixonada por inovação. Acredito firmemente no poder da tecnologia para transformar e melhorar nossas vidas, especialmente na área da saúde, onde tenho a sorte de contribuir.</p>
+      
+            <p><strong>Minha Jornada</strong><br>
+            Minha carreira tem sido uma jornada de constante aprendizado e adaptação. Formada em Ciência da Computação, sempre busquei me manter atualizada e pronta para os desafios que o mundo tecnológico apresenta. No dia a dia, me dedico a encontrar soluções criativas e eficazes que não apenas resolvem problemas, mas também melhoram o bem-estar das pessoas.</p>
+      
+            <p><strong>Interesses e Passatempos</strong><br>
+              Fora do trabalho, gosto de explorar o mundo do tarot e das artes, áreas que me permitem relaxar e expandir minha percepção do mundo. Esses hobbies me ajudam a manter uma mente equilibrada e a trazer uma abordagem mais holística para minha vida profissional.<br>
+              Além disso, sou apaixonada por gatos — eles me inspiram com sua serenidade e curiosidade. <br>
+              E quando não estou imersa em projetos ou aprendizados, exerço meu papel mais especial: ser mãe, uma jornada que me ensina diariamente sobre paciência, empatia e amor incondicional.</p>
+    
+          </div>
+        </div>
+      </section>
+
+
+      <div class="onda-para-roxo">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+          <path fill="#f1ebf9" d="M0,224C120,192,240,128,360,128C480,128,600,192,720,208C840,224,960,192,1080,160C1200,128,1320,96,1380,80L1440,64L1440,320L0,320Z"></path>
+        </svg>
+      </div>
+
+      <section id="habilidades" class="habilidades-section">
+        <div class="habilidades-container">
+          <h2><i class="fa-solid fa-wand-magic-sparkles"></i> Minhas Habilidades</h2>
+          <p class="habilidades-intro">Estas são algumas das áreas onde tenho experiência e paixão! 💻🚀</p>
+          
+          <div class="habilidades-grid">
+            <div class="habilidade-card">
+              <h3><i class="fa-solid fa-database"></i> Bancos de Dados Relacionais</h3>
+              <p>PostgreSQL, SQL Server, Oracle DB</p>
+            </div>
+      
+            <div class="habilidade-card">
+              <h3><i class="fa-brands fa-linux"></i> Linux & Containers</h3>
+              <p>Docker, Container</p>
+            </div>
+      
+            <div class="habilidade-card">
+              <h3><i class="fa-solid fa-plug-circle-bolt"></i> API REST</h3>
+              <p>Integrações e consumo de APIs RESTful</p>
+            </div>
+      
+            <div class="habilidade-card">
+              <h3><i class="fa-brands fa-html5"></i> HTML, CSS & JS</h3>
+              <p>Criação de interfaces responsivas e dinâmicas</p>
+            </div>
+      
+            <div class="habilidade-card">
+              <h3><i class="fa-solid fa-cloud"></i> Servidores em Nuvem</h3>
+              <p>Infraestrutura e hospedagem escalável</p>
+            </div>
+      
+            <div class="habilidade-card">
+              <h3><i class="fa-solid fa-boxes-stacked"></i> Outros</h3>
+              <p>RabbitMQ, Jira, Grafana, New Relic, Kubernetes</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+<div class="onda-para-branco">
+    <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#f1ebf9" d="M0,224C120,192,240,128,360,128C480,128,600,192,720,208C840,224,960,192,1080,160C1200,128,1320,96,1380,80L1440,64L1440,0L0,0Z"></path>
+    </svg>
+  </div>
+  
+  
+  
+
+      <section id="curriculo" class="sessao-padrao">
+        <div class="container-sessao">
+          <h1><i class="fa-solid fa-star"></i> Meu Currículo</h1>
+          <p>Quer conhecer melhor minha trajetória profissional? É só baixar meu currículo clicando no botão abaixo 💼</p>
+          
+          <a href="curriculo-rafaela-ayumi.pdf" class="botao-download" target="_blank">
+            <i class="fa-solid fa-file-arrow-down"></i> Baixar Currículo
+          </a>
+        </div>
+      </section>
+        
+    
+      <div class="onda-para-roxo">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+          <path fill="#f1ebf9" d="M0,224C120,192,240,128,360,128C480,128,600,192,720,208C840,224,960,192,1080,160C1200,128,1320,96,1380,80L1440,64L1440,320L0,320Z"></path>
+        </svg>
+      </div>
+      
+  
+      <section id="video">
+        <h2><i class="fa-solid fa-video"></i> Vídeo de Apresentação</h2>
+        <!--<p>Assista meu vídeo de apresentação abaixo ✨</p> -->
+        <p class="aviso-video">
+          👷‍♀️ Ainda estou preparando esse conteúdo com muito carinho. Volte em breve! ✨
+        </p>
+        
+      
+        <div class="video-container">
+          <iframe 
+            src="https://www.youtube.com/embed/SEU_VIDEO" 
+            title="Vídeo de Apresentação"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+
+  <div class="onda-para-branco">
+    <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#f1ebf9" d="M0,224C120,192,240,128,360,128C480,128,600,192,720,208C840,224,960,192,1080,160C1200,128,1320,96,1380,80L1440,64L1440,0L0,0Z"></path>
+    </svg>
+  </div>
+  
+  <section id="github" class="sessao-branca">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-brands fa-github"></i>GitHub</h2>
+      <p>Quer ver de perto os projetos que desenvolvi com carinho? Visite meu repositório no GitHub e confira minhas criações! 🚀</p>
+      <a href="https://github.com/RafaelaAyumi" target="_blank" class="botao-roxo">
+        <i class="fa-brands fa-github"></i> Acessar GitHub
+      </a>
+    </div>
+  </section>
+
+
+  <div class="onda-para-roxo">
+    <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#f1ebf9" d="M0,224C120,192,240,128,360,128C480,128,600,192,720,208C840,224,960,192,1080,160C1200,128,1320,96,1380,80L1440,64L1440,320L0,320Z"></path>
+    </svg>
+  </div>
+  
+  <section id="contato" class="sessao-roxa">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-envelope"></i> Entre em Contato</h2>
+        <p>Vamos nos conectar? Estou sempre aberta a novas ideias, colaborações e boas conversas! ✨</p>
+  
+        <div class="contact-buttons">
+            <a href="mailto:seuemail@email.com" class="contact-button">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Email</span>
+            </a>
+            <a href="https://www.instagram.com/seuusuario" target="_blank" class="contact-button">
+              <i class="fa-brands fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/in/seuusuario" target="_blank" class="contact-button">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+    </div>
+  </section>
+  
+
+
+
+  <footer>
+    © 2025 Rafaela Ayumi. Todos os direitos reservados.
+  </footer>
+
+  <script>
+    window.addEventListener('load', () => {
+      document.getElementById('sobre-mim').style.opacity = '1';
+    });
+  </script>
+  
 </body>
 </html>
